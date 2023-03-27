@@ -1,0 +1,89 @@
+@import '../components/variables';
+
+@media (min-width: 310px) and (max-width: 650px) {
+
+  header {
+    .containerheader {
+    .logo {
+      margin-left: 0rem;
+    }
+    }
+  }
+
+  main {
+    margin-bottom: 4rem;
+    padding: 1rem 0rem;
+    .textomain {
+      .divbuttons {
+        gap: 5px;
+      }
+    }
+    img {
+      display: none;
+    }
+  }
+
+  .boxminimalista {
+    img {
+      display: none;
+    }
+    .minimalista {
+      padding: 1.5rem;
+      li {
+        text-align: center;
+        }
+      }
+    }
+
+    .galeria {
+      .galeriacontainer {
+        p {
+          font-size: 1.1rem;
+          max-width: 38ch;
+        }
+        .imagensgaleria {
+          img {
+            width: 320px;
+          }
+        }
+      }
+    }
+
+    .orcamento {
+      text-align: center;
+      .containerorcamento {
+        text-align: center;
+        p {
+          padding: 1rem;
+          font-size: 1rem;
+          text-align: center;
+        }
+        li {
+          a {
+            padding: 1rem 4rem;
+            font-weight: bold;
+        }
+      }
+    } 
+   } 
+
+   footer {
+    padding: 2rem 3rem;
+    .containerfooter {
+      flex-direction: column;
+      gap: 30px;
+      img {
+        display: none;
+      }
+      .lifoo {
+        width: 170px;
+        li {
+          a {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+  }
+

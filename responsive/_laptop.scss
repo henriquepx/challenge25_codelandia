@@ -1,0 +1,47 @@
+@import '../components/variables';
+
+@media (min-width: 770px) and (max-width: 1024px) {
+
+  header {
+    padding: 0.5rem 2rem;
+  }
+
+  .boxminimalista {
+    justify-content: center;
+    gap: 50px;
+    img {
+      width: 30%;
+    }
+    .minimalista {
+      .caixa {
+        p {
+          max-width: 40ch;
+        }
+      }
+    }
+  }
+
+  main {
+      padding: 2rem;
+  }
+
+  .galeria {
+    .galeriacontainer {
+      p {
+        font-size: 1rem;
+        max-width: 70ch;
+      }
+      .imagensgaleria {
+        img {
+          width: 256px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  footer {
+    margin-left: 4rem;
+  }
+
+}

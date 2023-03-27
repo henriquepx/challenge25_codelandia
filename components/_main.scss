@@ -1,0 +1,58 @@
+@import '../components/variables';
+
+  main {
+  background-color: $white-f9;
+  margin-bottom: 8rem;
+  .containermain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+	  width: 100%;
+	  margin: 0 auto;
+    .textomain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h2 {
+      font-family: $font;
+      font-weight: 600;
+      font-size: 2.5rem;
+      max-width: 19ch;
+    }
+    p {
+      font-family: $font;
+      font-weight: 500;
+      font-size: 1.1rem;
+      color: $gray;
+      max-width: 42ch;
+    }
+    .divbuttons {
+      display: flex;
+      align-items: center;
+      button {
+        padding: 1rem;
+        background-color: $black;
+        color: white;
+        font-family: $font;
+        cursor: pointer;
+      }
+      li {
+        margin-left: 2rem;
+        a {
+          font-family: $font;
+          text-decoration: underline;
+          color: $black;
+          &:visited {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+  img {
+    width: 45%;
+  }
+}
+}

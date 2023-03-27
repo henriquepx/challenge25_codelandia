@@ -1,0 +1,70 @@
+@import '../components/variables';
+
+@media (max-width: 768px) {
+
+  header {
+    .containerheader {
+    .logo {
+      margin-left: 3rem;
+    }
+    .navbar {
+      ul {
+        gap: 20px;
+        .menumobile {
+          display: none;
+        }
+      }
+    }
+  }
+  }
+
+  main {
+    padding: 1.5rem;
+    .containermain {
+      .textomain {
+      h2 {
+        font-size: 2.3rem;
+        max-width: 19ch;
+      }
+    }
+    img {
+      width: 35%;
+    }
+    }
+  }
+
+  .boxminimalista {
+    flex-direction: column;
+    gap: 30px;
+    .minimalista {
+      .caixa {
+        text-align: center;
+      }
+      li {
+        text-align: center;
+      }
+    }
+  }
+
+  .galeria {
+    .galeriacontainer {
+      gap: 10px;
+      p {
+        padding: 2rem;
+      }
+      .imagensgaleria {
+        flex-direction: column;
+      }
+    }
+  }
+
+  footer {
+    .containerfooter {
+      justify-content: center;
+      img {
+        display: none;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,58 @@
+@import '../components/variables';
+
+header {
+  .containerheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 0rem;
+  align-items: center;
+
+  max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    img {
+      background-color: black;
+      width: 30px;
+      height: 100%;
+    }
+    p {
+      font-family: $font;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      font-weight: 1000;
+    }
+  }
+  .navbar {
+    ul {
+      display: flex;
+      li {
+        color: $black;
+        .user {
+          margin-left: 3rem;
+        }
+        a {
+          font-family: $font;
+          margin-left: 2rem;
+          color: $black;
+          &:visited {
+            color: $black;
+          }
+        }
+      }
+      .menumobile {
+        display: none;
+      }
+    }
+  }
+}
+}
+
+
+[data-menu="button"] {
+  display: none;
+}

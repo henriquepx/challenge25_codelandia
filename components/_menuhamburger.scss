@@ -1,0 +1,54 @@
+@import '../components/variables';
+
+@media (max-width: 600px) {
+
+  [data-menu="button"] {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-family: $font;
+    background-color: $black;
+    color: $white;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 12px;
+    position: relative;
+    z-index: 300;
+  }
+  [data-menu="button"]::before {
+    content: '☰';
+    display: inline-block;
+    margin-right: 5px;
+  }
+  #menu {
+    display: none;
+    li {
+      a {
+        color: $white;
+      }
+    }
+    .notmobile {
+      display: none;
+    }
+    .menumobile {
+      display: block;
+    }
+  }
+  #menu.active {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+    width: 50%;
+    background: $black;
+    z-index: 200;
+  }
+}
+
+

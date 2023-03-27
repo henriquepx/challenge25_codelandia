@@ -1,0 +1,558 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
+  list-style: none;
+  quotes: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+header .containerheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.6rem 0rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .containerheader .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+header .containerheader .logo img {
+  background-color: black;
+  width: 30px;
+  height: 100%;
+}
+
+header .containerheader .logo p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+header .containerheader .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .containerheader .navbar ul li {
+  color: #272727;
+}
+
+header .containerheader .navbar ul li .user {
+  margin-left: 3rem;
+}
+
+header .containerheader .navbar ul li a {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2rem;
+  color: #272727;
+}
+
+header .containerheader .navbar ul li a:visited {
+  color: #272727;
+}
+
+header .containerheader .navbar ul .menumobile {
+  display: none;
+}
+
+[data-menu="button"] {
+  display: none;
+}
+
+main {
+  background-color: #F9F9F9;
+  margin-bottom: 8rem;
+}
+
+main .containermain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .containermain .textomain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+main .containermain .textomain h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  max-width: 19ch;
+}
+
+main .containermain .textomain p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #797979;
+  max-width: 42ch;
+}
+
+main .containermain .textomain .divbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .containermain .textomain .divbuttons button {
+  padding: 1rem;
+  background-color: #272727;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+main .containermain .textomain .divbuttons li {
+  margin-left: 2rem;
+}
+
+main .containermain .textomain .divbuttons li a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
+  color: #272727;
+}
+
+main .containermain .textomain .divbuttons li a:visited {
+  color: #272727;
+}
+
+main .containermain img {
+  width: 45%;
+}
+
+.boxminimalista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.boxminimalista img {
+  width: 40%;
+  -webkit-box-shadow: #272727 -40px -40px;
+          box-shadow: #272727 -40px -40px;
+}
+
+.boxminimalista .minimalista .caixa {
+  padding: 1.5rem;
+  background-color: #272727;
+  margin-bottom: 1.2rem;
+}
+
+.boxminimalista .minimalista .caixa h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.boxminimalista .minimalista .caixa p {
+  font-family: "Montserrat", sans-serif;
+  max-width: 50ch;
+  color: #FFFFFF;
+  font-style: normal;
+  line-height: 1.3;
+}
+
+.boxminimalista .minimalista li a {
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+  color: #272727;
+}
+
+.boxminimalista .minimalista li a:visited {
+  color: #272727;
+}
+
+.galeria {
+  background-color: #F9F9F9;
+  padding: 3.5rem 0rem;
+}
+
+.galeria .galeriacontainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.galeria .galeriacontainer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.galeria .galeriacontainer p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #797979;
+}
+
+.galeria .galeriacontainer .imagensgaleria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+
+.galeria .galeriacontainer .imagensgaleria img {
+  width: 396px;
+  height: 550px;
+}
+
+.orcamento {
+  padding: 6rem 0rem;
+}
+
+.orcamento .containerorcamento {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.orcamento .containerorcamento h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+.orcamento .containerorcamento p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #797979;
+  margin-bottom: 1.5rem;
+}
+
+.orcamento .containerorcamento li a {
+  font-family: "Montserrat", sans-serif;
+  color: #272727;
+  padding: 0.5rem 1.5rem;
+  background-color: white;
+  border: 2px solid #272727;
+}
+
+footer {
+  background-color: #F9F9F9;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+footer .containerfooter {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
+}
+
+footer .containerfooter img {
+  background-color: black;
+  width: 30px;
+  height: 100%;
+}
+
+footer .containerfooter .lifoo li a {
+  font-family: "Montserrat", sans-serif;
+  color: #272727;
+  font-size: 1.2rem;
+}
+
+footer .containerfooter .lifoo li a:visited {
+  color: #272727;
+}
+
+footer .containerfooter .lifoo li .one {
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  [data-menu="button"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.5rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: #272727;
+    color: #FFFFFF;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 12px;
+    position: relative;
+    z-index: 300;
+  }
+  [data-menu="button"]::before {
+    content: '☰';
+    display: inline-block;
+    margin-right: 5px;
+  }
+  #menu {
+    display: none;
+  }
+  #menu li a {
+    color: #FFFFFF;
+  }
+  #menu .notmobile {
+    display: none;
+  }
+  #menu .menumobile {
+    display: block;
+  }
+  #menu.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 300px;
+    text-align: center;
+    width: 50%;
+    background: #272727;
+    z-index: 200;
+  }
+}
+
+@media (min-width: 310px) and (max-width: 426px) {
+  header .containerheader .logo {
+    margin-left: 0rem;
+  }
+  main {
+    margin-bottom: 4rem;
+    padding: 1rem 0rem;
+  }
+  main .textomain .divbuttons {
+    gap: 5px;
+  }
+  main img {
+    display: none;
+  }
+  .boxminimalista img {
+    display: none;
+  }
+  .boxminimalista .minimalista {
+    padding: 1.5rem;
+  }
+  .boxminimalista .minimalista li {
+    text-align: center;
+  }
+  .galeria .galeriacontainer p {
+    font-size: 1.1rem;
+    max-width: 38ch;
+  }
+  .galeria .galeriacontainer .imagensgaleria img {
+    width: 320px;
+  }
+  .orcamento {
+    text-align: center;
+  }
+  .orcamento .containerorcamento {
+    text-align: center;
+  }
+  .orcamento .containerorcamento p {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .orcamento .containerorcamento li a {
+    padding: 1rem 4rem;
+    font-weight: bold;
+  }
+  footer {
+    padding: 2rem 3rem;
+  }
+  footer .containerfooter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  footer .containerfooter img {
+    display: none;
+  }
+  footer .containerfooter .lifoo {
+    width: 170px;
+  }
+  footer .containerfooter .lifoo li a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header .containerheader .logo {
+    margin-left: 3rem;
+  }
+  header .containerheader .navbar ul {
+    gap: 20px;
+  }
+  header .containerheader .navbar ul .menumobile {
+    display: none;
+  }
+  main {
+    padding: 1.5rem;
+  }
+  main .containermain .textomain h2 {
+    font-size: 2.3rem;
+    max-width: 19ch;
+  }
+  main .containermain img {
+    width: 35%;
+  }
+  .boxminimalista {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  .boxminimalista .minimalista .caixa {
+    text-align: center;
+  }
+  .boxminimalista .minimalista li {
+    text-align: center;
+  }
+  .galeria .galeriacontainer {
+    gap: 10px;
+  }
+  .galeria .galeriacontainer p {
+    padding: 2rem;
+  }
+  .galeria .galeriacontainer .imagensgaleria {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .containerfooter {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .containerfooter img {
+    display: none;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+  header {
+    padding: 0.5rem 2rem;
+  }
+  .boxminimalista {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 50px;
+  }
+  .boxminimalista img {
+    width: 30%;
+  }
+  .boxminimalista .minimalista .caixa p {
+    max-width: 40ch;
+  }
+  main {
+    padding: 2rem;
+  }
+  .galeria .galeriacontainer p {
+    font-size: 1rem;
+    max-width: 70ch;
+  }
+  .galeria .galeriacontainer .imagensgaleria img {
+    width: 256px;
+    height: auto;
+  }
+  footer {
+    margin-left: 4rem;
+  }
+}
+/*# sourceMappingURL=syles.css.map */

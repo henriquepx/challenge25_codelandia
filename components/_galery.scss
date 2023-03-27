@@ -1,0 +1,36 @@
+@import '../components/variables';
+
+.galeria {
+  background-color: $white-f9;
+  padding: 3.5rem 0rem;
+  .galeriacontainer {
+    max-width: 1200px;
+	  width: 100%;
+	  margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px;
+    h2 {
+      font-family: $font;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+    p {
+      font-family: $font;
+      text-align: center;
+      font-size: 1.5rem;
+      color: $gray;
+    }
+    .imagensgaleria {
+      display: flex;
+      gap: 12px;
+      img {
+        width: 396px;
+        height: 550px;
+      }
+    }
+  }
+}
