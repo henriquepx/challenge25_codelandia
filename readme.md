@@ -11,4 +11,4 @@
 
 | Desktop | Android  |
 | ------------------- | ------------------- |
-| <img src="https://github.com/henriquepx/challenge26_codelandia/blob/main/assets/desktop.png"> | <img src="https://github.com/henriquepx/challenge26_codelandia/blob/main/assets/mobile.png"> |
+| <img src="https://github.com/henriquepx/challenge25_codelandia/blob/main/img/homeyoudesktop.png"> | <img src="https://github.com/henriquepx/challenge25_codelandia/blob/main/img/homeyoumobile.png"> |
