@@ -45,10 +45,21 @@
     justify-content: center;
     height: 300px;
     text-align: center;
-    width: 50%;
+    width: 100%;
     background: $black;
     z-index: 200;
+    animation: openingMenu .4s ease-in-out;
   }
 }
 
 
+@keyframes openingMenu {
+  from {
+    right: -100%;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
