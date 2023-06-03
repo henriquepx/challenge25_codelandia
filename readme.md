@@ -3,7 +3,8 @@
 <p align="center"><a href="https://homeyou-henriqdev.netlify.app/">Link para visualizar o projeto</a></p>
 
 <br>
-# HomeYou - Encontre o Melhor Conforto
+
+## HomeYou - Encontre o Melhor Conforto
 
 Este projeto é parte do Desafio 25 da comunidade Codelândia, criada por Iuri Silva. A Codelândia é uma comunidade que auxilia através de desafios mensais, onde os participantes podem escolher a tecnologia que desejam utilizar.
 
